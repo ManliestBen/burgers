@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>New Burger Page</h1>
+  <form action="/burgers" method="POST">
+    <input type="text" name="name" placeholder="Burger Name">
+    <select name="protein" id="">
+      <option value="Beef">Beef</option>
+      <option value="Chicken">Chicken</option>
+      <option value="Wagyu">Wagyu</option>
+      <option value="Tuna">Tuna</option>
+      <option value="Plant">Plant</option>
+    </select>
+    <h3>Ingredients (Separate with a comma!):</h3>
+    <input type="text" name="ingredients">
+    <select name="temp" id="">
+      <option value="Rare">Rare</option>
+      <option value="Medium Rare">Medium Rare</option>
+      <option value="Medium">Medium</option>
+      <option value="Cardboard">Cardboard</option>
+    </select>
+    <button type="submit">Add Burger</button>
+  </form>
+</body>
+</html>
